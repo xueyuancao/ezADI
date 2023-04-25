@@ -1,0 +1,5 @@
+importFrom("utils", read.csv, read.table)
+importFrom("openxlsx", read.xlsx, write.xlsx)
+importFrom("stringr", str_replace, str_ends)
+importFrom("tidygeocoder", geocode)
+export("ezADI")

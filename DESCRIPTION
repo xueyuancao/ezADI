@@ -1,0 +1,13 @@
+Package: ezADI
+Type: Package
+Title: A package to perform geocoding according to US census and extract area depreviation index (ADI)
+Version: 1.0
+Date: 2023-03-14
+Author: Xueyuan Cao <xcao12@uthsc.edu>
+Maintainer: Xueyuan Cao <xcao12@uthsc.edu>
+Description: ezADI performs geocoding using tidygeocoder to .
+Depends: R (>= 4.1.0), tidygeocoder, stringr, openxlsx
+License: GPL (>= 2)
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+LazyLoad: yes
