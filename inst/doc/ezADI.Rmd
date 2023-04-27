@@ -1,0 +1,64 @@
+---
+title: "An Introduction to the ezADI Package"
+author: "Xueyuan Cao, PhD"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{An Introduction to the ezADI Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r loadLibs, include = FALSE}
+#library(MASS)
+library(ezADI)
+#library(ggplot2)
+library(knitr)
+old<- options()
+data("exmpDat")
+data("adi2020")
+opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  digits = 3,
+  tidy = FALSE,
+  background = "#FFFF00",
+  fig.align = 'center',
+  warning = FALSE,
+  message = FALSE
+  )
+options(width = 80, digits = 3)
+#theme_set(theme_bw())
+getInfo <- function(what = "Suggests") {
+  text <- packageDescription("ezADI")[what][[1]]
+  text <- gsub("\n", ", ", text, fixed = TRUE)
+  text <- gsub(">=", "$\\\\ge$", text, fixed = TRUE)
+  eachPkg <- strsplit(text, ", ", fixed = TRUE)[[1]]
+  eachPkg <- gsub(",", "", eachPkg, fixed = TRUE)
+  #out <- paste("\\\**", eachPkg[order(tolower(eachPkg))], "}", sep = "")
+  #paste(out, collapse = ", ")
+  length(eachPkg)
+}
+```
+
+
+The **ezADI** package (short for easy area deprivation index (ADI)) contains functions to to carry out the US Census geocoder query to construct the 12-digit FIPS code for addresses, merged to ADI data downloaded from Neighborhood Atlas (please refer to \url{https://www.neighborhoodatlas.medicine.wisc.edu/}). **ezADI** loads packages as needed and assumes that they are installed. 
+
+
+An example to run ezADI on example data set.
+```{r exmp}
+test<- ezADI(inputFile = NULL, inputDat = exmpDat, adiFile = "US_ADI_Example.csv", outputFile = NULL, batchSize = 100)
+head(test$adiRes)
+test$matched
+test$no_match
+test$problem_address[1:5]
+test$nadi
+options(old)
+```
+
+
+Install **ezADI** using
+
+```{r install, eval = FALSE}
+#devtools::install_github('xueyuancao/ezADI', dependencies = c("Depends", "Suggests"))
+```

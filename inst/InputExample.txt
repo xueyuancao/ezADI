@@ -1,0 +1,59 @@
+ID	street	city	state	zipcode
+1	5255 Elvis Presley Blvd	 Memphis	 TN	38116
+2	6727 Raleigh Lagrange Rd	 Memphis	 TN	38134
+3	3950 Austin Peay Hwy	 Memphis	 TN	38128
+4	7525 Winchester Rd	 Memphis	 TN	38125
+5	6990 E Shelby Dr	 Memphis	 TN	38125
+6	2856 Hickory Hill Rd	 Memphis	 TN	38115
+7	577 N Germantown Pkwy	 Cordova	 TN	38018
+8	798 W N Service Rd	 West Memphis	 AR	72301
+9	1980 Getwell Rd	 Memphis	 TN	38111
+10	8400 US-64	 Bartlett	 TN	38133
+11	6520 Memphis Arlington Rd	 Bartlett	 TN	38135
+12	4040 Nolensville Pk	 Nashville	 TN	37211
+13	2421 Powell Ave	 Nashville	 TN	37204
+14	7044 Charlotte Pike	 Nashville	 TN	37209
+15	3458 Dickerson Pike	 Nashville	 TN	37207
+16	5824 Nolensville Pk	 Nashville	 TN	37211
+17	4040 Nolensville Pk	 Nashville	 TN	37211
+18	5531 Edmondson Pike	 Nashville	 TN	37211
+19	4424 Lebanon Pike	 Hermitage	 TN	37076
+20	2232 Gallatin Pike N	 Madison	 TN	37115
+21	3035 Hamilton Church Rd	 Antioch	 TN	37013
+22	300 Pleasant Grove Rd Ste 600	 Mt. Juliet	 TN	37122
+23	5824 Nolensville Pk	 Nashville	 TN	37211
+24	3458 Dickerson Pike	 Nashville	 TN	37207
+25	4450 E McCain Blvd	 North Little Rock	 AR	72117
+26	2700 S Shackleford Rd	 Little Rock	 AR	72205
+27	700 Bowman Rd	 Little Rock	 AR	72211
+28	8801 Baseline Rd	 Little Rock	 AR	72209
+29	19301 Cantrell Rd	 Little Rock	 AR	72223
+30	12001888 Maumelle Blvd	 North Little Rock	 AR	72113
+31	4450 E McCain Blvd	 North Little Rock	 AR	72117
+32	8801 Baseline Rd	 Little Rock	 AR	72209
+33	700 Bowman Rd	 Little Rock	 AR	72211
+34	2700 S Shackleford Rd	 Little Rock	 AR	72205
+35	310 Riggs Rd NE	 Washington	 DC	20011
+36	5929 Georgia Ave NW	 Washington	 DC	20011
+37	310 Riggs Rd NE	 Washington	 DC	20011
+38	99 H St NW	 Washington	 DC	20001
+39	5929 Georgia Ave NW	 Washington	 DC	20011
+40	310 Riggs Rd NE	 Washington	 DC	20011
+41	99 H St NW	 Washington	 DC	20001
+42	5929 Georgia Ave NW	 Washington	 DC	20011
+43	7777777 Green Acres Rd S	 Valley Stream	 NY	11581
+44	2100 88th St	 North Bergen	 NJ	7047
+45	400 Park Pl	 Secaucus	 NJ	7094
+46	1220 Old Country Rd	 Westbury	 NY	11590
+47	500 Bayonne Crossing Way	 Bayonne	 NJ	7002
+48	2465 Hempstead Tpke	 East Meadow	 NY	11554
+49	250 NY-59	 Suffern	 NY	10901
+50	965 Broadhollow Rd	 Farmingdale	 NY	11735
+51	1123 Jerusalem Ave	 Uniondale	 NY	11553
+52	288 Larkin Dr	 Monroe	 NY	10950
+53	85 Crooked Hill Rd	 Commack	 NY	11725
+54	1850 Veterans Memorial Hwy	 Islandia	 NY	11749
+55	189 US-46	 Saddle Brook	 NJ	7663
+56	1201 NY-300	 Newburgh	 NY	12550
+57	3133 E Main St	 Mohegan Lake	 NY	10547
+58	217 Centre St #1350	 New York	 NY	10013
