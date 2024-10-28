@@ -74,7 +74,7 @@ function(inputFile=NULL, inputDat=NULL, adiFile="US_ADI_Example.csv", outputFile
   adiRes<-merge(geocodeQres, adiDat, by="FIPS", by.y="FIPS", all.x = T)
   adiRes<-adiRes[, c(2:ncol(adiRes), 1)]
   nmtch_index <- adiRes$match_indicator%in%c("No_Match", "Tie")
-  nadi<-!is.na(adiRes$ADI_NATRANK)
+  nadi<-sum(!is.na(adiRes$ADI_NATRANK))
   
   if(is.null(outputFile)&!is.null(inputFile))
   {
